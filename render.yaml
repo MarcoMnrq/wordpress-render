@@ -7,7 +7,7 @@ services:
   disk:
     name: wordpress
     mountPath: /var/www/html
-    sizeGB: 8
+    sizeGB: 4
   envVars:
   - key: WORDPRESS_DB_HOST
     fromService:
